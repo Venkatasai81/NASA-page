@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .header-section {
+        background-image: url('https://www.nasa.gov/wp-content/uploads/2020/02/osiris-rex-orbiting-bennu.png?resize=2000,1125');
+        /* Replace with your background image URL */
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        /* Adjust the height as needed */
+        color: white;
+        /* Text color */
+        display: flex;
+        align-items: left;
+        justify-content: center;
+        text-align: left;
+        flex-direction: column;
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 30px;
+        /* text-align: center; */
+
+    }
+
+    th,
+    td {
+        padding: 8px;
+        /* text-align: center; */
+        border-bottom: 1px solid #DDD;
+    }
+
+    th {
+        font-size: 25px;
+        /* text-align: center; */
+
+
+    }
+
+    td {
+        text-align: left;
+    }
+
+    .img {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin-right: 30px;
+        padding-left: 0%;
+        text-align: left;
+    }
+
+    .centered-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        /* Text color */
+    }
+    body{
+        background-color: black;
+        color: #DDD;
+    }
+ ul{
+    padding: 10px;
+ }
+ .ico{
+    padding: 5px;
+ }
+ .nave {
+    color: #DDD;
+ }
+ .nave:hover{
+    background-color: aliceblue;
+    color: black;
+    font-size: 23px;
+ }
+</style>
+
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+    <!-- Example Code -->
+
+    <nav style="background-color:black; color: #DDD;" class="nav nav-pills flex-column flex-sm-row text-light">
+        <a class="flex-sm-fill text-sm-center nav-link nave" aria-current="page" href="#">All NASA News</a>
+        <a class="flex-sm-fill text-sm-center nav-link nave" href="#">Events</a>
+        <a class="flex-sm-fill text-sm-center nav-link nave" href="#">Blogs</a>
+        <a class="flex-sm-fill text-sm-center nav-link nave " href="#">Newsletters</a>
+        <a class="flex-sm-fill text-sm-center nav-link nave" href="#">NASA Media Contacts</a>
+        <a class="flex-sm-fill text-sm-center nav-link nave" href="#">Social Media</a>
+    </nav>
+    <div class="header-section" style="padding: 30px;">
+        <h1>Keep up with <br>NASA</h1>
+        <h5>NASA’s blogs provide you with the latest information from agency missions <br>and programs.</h5>
+
+    </div>
+
+
+
+
+    <br>
+
+    <h3 style="margin: 6px;">NASA Blogs</h3>
+    <hr>
+
+
+    <table>
+
+        <tr>
+            <th><img src="https://www.nasa.gov/wp-content/uploads/2023/04/iss068e075344.jpg?resize=200,200" alt=""
+                    class="img">Commerce Crew</th>
+            <td>NASA's Commercial Crew Program works with industry to
+                facilitate<br> safe, reliable, and cost-effective access to low Earth orbit.</td>
+
+        </tr>
+        <tr>
+            <th><img src="https://www.nasa.gov/wp-content/uploads/2016/09/osiris-rex-spacecraft-at-bennunew.jpg?resize=200,200"
+                    alt="" class="img">OSIRIS-REx</th>
+            <td>The first U.S. mission to collect a sample from an asteroid,
+                OSIRIS-<br>REx will return to Earth on Sept. 24, 2023, with material<br> from asteroid Bennu.</td>
+
+        </tr>
+        <tr>
+            <th><img src="https://www.nasa.gov/wp-content/uploads/2023/04/sls-on-the-launch-pad.jpg?resize=200,200"
+                    alt="" class="img">Artemis</th>
+            <td>Artemis is the first step in the next era of human exploration.<br> Together with commercial and
+                international partners, NASA will <br>establish a sustainable presence on the Moon to prepare for
+                <br>missions to Mars.
+            </td>
+
+        </tr>
+        <tr>
+            <th><img src="https://www.nasa.gov/wp-content/uploads/2020/07/moon-near-side-lro.jpg?resize=200,200" alt=""
+                    class="img">All NASA Blogs</th>
+            <td>Earth science, space science, spaceflight, aeronautics and<br> technology. The latest is here.</td>
+
+        </tr>
+    </table>
+
+
+    <h6 style="font-family: 'Times New Roman', Times, serif; padding-left: 5px;">KEEP EXPLORING</h6>
+    <H1 style="padding-left: 5px;">Discover More Topics From NASA</H1>
+    <br>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-1.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5> Missions</h5>
+                    x
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-2.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Humans in <br>Space</h5>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-3.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Climate <br> Change</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card h-100">
+                <img src="https://www.nasa.gov/wp-content/plugins/nasa-blocks/assets/images/topic-cards/topic-card-sample-4.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5>Solar <br>System</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+
+    <div class="container" style="width: 100%;">
+        <div class="row"
+            style="margin-left: -60px; gap: 5px; height: 260px;; padding-top: 10px;padding-left: 0px;   background-color: black; color: azure;">
+
+            <div class="col">
+
+                <h6>The National Aeronautics and Space Administration</h6>
+                <p style="text-align: justify;">NASA explores the unknown in air and space, innovates for the benefit of
+                    humanity, and inspires the world through discovery.</p>
+
+                <p><a href="#" style="text-decoration: none;">About NASA's Mission</a></p>
+                <p><a href="#" style="text-decoration: none;">Join US</a>
+                </p>
+            </div>
+
+
+            <div class="col">
+                <ul style="list-style-type: none; ">
+                    <li>Home</li>
+                    <li>Events</li>
+                    <li>Multimedia</li>
+                    <li>Nasa</li>
+                    <li>Missions</li>
+                </ul>
+
+            </div>
+            <div class="col">
+                <ul style="list-style-type: none;">
+                    <li>Humans in Space</li>
+                    <li>Earth & Climate </li>
+                    <li>The Solar System</li>
+                    <li>The Universe</li>
+                    <li>Science</li>
+                </ul>
+
+            </div>
+            <div class="col">
+                <ul style="list-style-type: none;">
+                    <li>Aeronautics</li>
+                    <li>Technology</li>
+                    <li>Learning Resources</li>
+                    <li>About NASA</li>
+                    <li>NASA en Español</li>
+                </ul>
+
+            </div>
+            <div class="col">
+                <ul style="list-style-type: none; ">
+                    <H4>Follow NASA</H4>
+                    <div class="col">
+                        <ul style="list-style-type: none; padding-right: 10px; ">
+                            <i class="fa fa-instagram ico" style="font-size:36px;color:rgb(250, 248, 248)"></i>
+                            <i class="fa fa-facebook ico" style="font-size:36px;color:rgb(248, 248, 248)"></i>
+                            <i class="fa fa-twitter ico " style="font-size:36px;color:rgb(234, 237, 240)"></i>
+                            <i class="fa fa-youtube ico" style="font-size:36px;color:rgb(229, 232, 235)"></i>
+                    </div>
+                    <br>
+                    <li>NASA NEWSLETTERS</li>
+
+                </ul>
+
+            </div>
+
+
+        </div>
+    </div>
+    <div style="background-color: black; color: azure; width: 100%;">
+        <hr>
+        <div class="container text-center" style="padding-left: 5px; margin-left: 5px;">
+            <div class="row align-items-start">
+                <div class="col">
+                    <a href="#" style="text-decoration: none;">Sitemap</a>
+                </div>
+                <div class="col">
+                    <a href="#" style="text-decoration: none;"> For Media</a>
+                </div>
+                <div class="col">
+                    <a href="#" style="text-decoration: none;"> FOIA </a>
+                </div>
+                <div class="col">
+                    <a href="#" style="text-decoration: none;"> No FEAR Act </a>
+                </div>
+                <div class="col">
+                    <a href="#" style="text-decoration: none;"> Office of the IG </a>
+                </div>
+                <div class="col">
+                    <a href="#" style="text-decoration: none;">Contact NASA </a>
+                </div>
+
+                <div class="col">
+                    <a href="#" style="text-decoration: none;"> Agency Financial </a>
+                </div>
+                <div class="col">
+                    <a href="#" style="text-decoration: none;">Contact NASA </a>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div style="display: inline-block; width: 30%;">Page Last Updated: <b>Nov 09, 2023</b></div>
+        <div style="display: inline-block; width: 30%;"> Page Editor: <b>Dacia Massengill</b></div>
+        <div style="display: inline-block; width: 30%;">Responsible NASA Official: <b>Brian Dunbar</b></div>
+    </div>
+
+
+
+
+
+    <!-- Bootstrap JS and Popper.js are required for some Bootstrap features -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
